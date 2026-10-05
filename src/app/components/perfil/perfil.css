@@ -1,0 +1,27 @@
+.perfil {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #4a6cf7;
+  border-radius: 12px;
+  background-color: #f5f7ff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.nom {
+  margin: 0 0 8px;
+  color: #2b3a8c;
+}
+
+.edat {
+  margin: 0 0 12px;
+  font-weight: bold;
+  color: #555;
+}
+
+.frase {
+  margin: 0;
+  font-style: italic;
+  color: #333;
+}
