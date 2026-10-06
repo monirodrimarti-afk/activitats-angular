@@ -3,4 +3,12 @@
 <app-perfil></app-perfil>
 <app-perfil></app-perfil>
 
+<h2>Els meus videojocs</h2>
+
+<ul>
+  @for (joc of videojocs; track joc.id) {
+    <li>{{ $index + 1 }}. {{ joc.nom }} ({{ joc.plataforma }})</li>
+  }
+</ul>
+
 <router-outlet />
